@@ -27,7 +27,7 @@
     font-family: inter;
     color: white;
 }
-.bi{
+.icon{
     color: white;
     font-size: 30px;
 }
@@ -60,7 +60,10 @@ li {
 }
 
 .section-center{
-
+    display: flex;
+    justify-content: center; 
+    flex-direction: column;
+    align-items: center;
 
 }
 
@@ -108,6 +111,8 @@ li {
 .section-mid{
     display: flex;
     justify-content: center; 
+    flex-direction: column;
+    align-items: center;
 }
 .caixa-texto-produtos{
     display: flex;
@@ -130,6 +135,123 @@ li {
     font-size: 15px;
     padding: 10px;
     width: 600px;
-    height: 100px;
+    
+}
+.caixa-btn-produtos{
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.btn-cafe{
+    background-color: #e07600;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-family: inter;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-confeitaria{
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-family: inter;
+    background-color: white;
+    cursor: pointer;
+}
+.btn-confeitaria:hover{
+    background-color: #fffbeb;
+}
+
+.btn-comida{
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-family: inter;
+    background-color: white;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+} 
+.btn-comida:hover{
+    background-color: #fffbeb;
+}
+.btn-icon{
+    color: black;
+    font-size: 20px;
+}
+main{ 
+    background-color: #f9fafb;
+}
+.btn-icon-selected{
+    color: white;
+    font-size: 20px;
+}
+.section-cards{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.caixa-cards{
+    border: 1px solid lightgray;
+    width: 500px;
+    height: 380px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: all 0.1s ease-in-out;
+    cursor: pointer;
+}
+.caixa-img-cards{
+    width: 500px;
+    height: 250px;
+    border-radius: 15px;
+}
+.img-cards{
+    width: 500px;
+    height: 250px;
+    border-radius: 15px;
+}
+.caixa-texto-card{
+    padding: 20px;
+}
+.titulo-card{
+    font-family: inter;
+    font-size: 18px;
+}
+.subtitulo-card{
+    font-family: inter;
+    font-size: 15px;
+    color: grey;
+}
+.preco-btn-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: inter;
+    font-size: 20px;
+}
+.btn-card{
+    font-family: inter;
+    font-size: 15px;
+    border: none;
+    background-color: #e07600;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+.card-btn{
+    font-size: 15px;
+}
+.preco-card{
     
 }

@@ -7,14 +7,13 @@
     <title>Café Delicia</title>
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
 </head>
 
 <body>
     <header>
         <nav class="menu">
             <div class="menu-logo">
-                <i class="bi bi-cup-hot"></i>
+                <i class="bi bi-cup-hot icon"></i>
                 <p class="texto-logo"> Café Delicia</p>
             </div>
             <ul class="lista-menu">
@@ -32,8 +31,8 @@
                 </li>
             </ul>
             <div class="menu-icones">
-                <i class="bi bi-cart2"></i>
-                <i class="bi bi-list"></i>
+                <i class="bi bi-cart2 icon"></i>
+                <i class="bi bi-list icon"></i>
             </div>
         </nav>
     </header>
@@ -56,11 +55,38 @@
         </section>
         <section class="section-mid">
             <div class="caixa-texto-produtos">
-                <div class="titulo-produtos"> Nossos Proutos</div>
+                <div class="titulo-produtos"> Nossos Produtos</div>
                 <div class="texto-produtos">
                     Descubra nossa seleção de cafés artesanais, doces frescos e pratos deliciosos preparados com os
                     melhores ingredientes.</div>
             </div>
+            <div class="caixa-btn-produtos">
+                <button class="btn-cafe"> <i class="bi bi-cup-hot btn-icon-selected"></i> Café</button>
+                <button class="btn-confeitaria"> <i class="bi bi-cake2 btn-icon"></i> Confeitaria</button>
+                <button class="btn-comida"> <i class="bi bi-egg-fried"></i> Comida</button>
+            </div>
+        </section>
+        <section class="section-cards">
+            <div class="caixa-cards">
+                <div class="card-popular">
+
+                    <div class="caixa-img-cards"><img class="img-cards" src="./assets/imgs/cafe.jpg" alt="">
+                    </div>
+                    <div class="caixa-texto-card">
+
+                        <p class="titulo-card">Espresso</p>
+                        <p class="subtitulo-card">Café concentrado e aromático</p>
+                        <div class="preco-btn-card">
+                            <p class="preco-card">$3.50</p>
+                            <button class="btn-card"> <i class="bi bi-cart2 card-btn"></i> adicionar </button>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+
         </section>
     </main>
     <footer>

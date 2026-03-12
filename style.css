@@ -205,6 +205,7 @@ main{
     border-radius: 15px;
     background-size: cover;
     background-repeat: repeat;
+    transition: all ease-in-out 0.2s;
 }
 .caixa-texto-card{
     display: flex;

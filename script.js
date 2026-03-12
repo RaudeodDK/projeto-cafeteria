@@ -12,14 +12,14 @@ const cafe = [
         nome: "Capuccino",
         descricao: " Espresso com leite vaporizado e espuma",
         preco: "$4.50",
-        img: ".assets/produtos/capuccino.jpg"
+        img: "./assets/imgs/capuccino.jpg"
     },
 
     {
         nome: "Café Gelado",
         descricao: "Café frio resfrescante com gelo",
         preco: "$5.00",
-        img: "assets/produtos/cafe-gelado.jpg"
+        img: "./assets/imgs/cafe-gelado.jpg"
     },
 ]
 
@@ -35,14 +35,14 @@ const confeitaria = [
         nome: "Croissant",
         descricao: "Croissant francês recém açado",
         preco: "$3.00",
-        img: "assets/produtos/croissant.png"
+        img: "./assets/imgs/croissant.jpg"
     },
 
     {
         nome: "Muffin de Mertilo",
         descricao: "Muffin fofinho com mertilos frescos",
         preco: "$3.50",
-        img: "assets/produtos/muffin.png"
+        img: "./assets/imgs/muffin.jpg"
     },
 ]
 
@@ -99,7 +99,7 @@ document.querySelector(".btn-cafe") .addEventListener("click", () => {
     mostrarProdutos(cafe)
 })
 document.querySelector(".btn-confeitaria") .addEventListener("click", () => {
-    mostrarProduto(confeitaria)
+    mostrarProdutos(confeitaria)
 })
 document.querySelector(".btn-comida") .addEventListener("click", () => {
     mostrarProdutos(comida)
